@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1200vh;
+}
+
+.header-sticky{
+    background-color: blue;
+    font-size: 23px;
+    position: sticky;
+    padding: 20px;
+    top:0px;
+    z-index: 2000;
+}
+
+.relative-example{
+    position: relative;
+    font-size: 16px;
+    padding: 5px;
+    background-color: aqua;
+    top:20px;
+    left: 20px;
+}
+
+.absolute-example{
+    position: absolute;
+    background-color: red;
+    padding: 40px;
+    top:20px;
+    right:35px;
+}
+
+.fixed-btn{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+
+

@@ -1,0 +1,39 @@
+.button:hover{
+    background-color: aquamarine;
+}
+
+.button{
+    background-color: #4CAF50;
+}
+
+input{
+    margin-top: 10px;
+    outline: none;
+}
+
+input:focus{
+    border-color: red;
+}
+
+li:nth-child(odd){
+
+    background-color: palevioletred;
+}
+
+li:nth-child(even){
+    background-color: crimson;
+}
+
+li:first-child{
+    color: darkviolet;
+}
+
+li:last-child{
+    color: beige;
+}
+
+
+p:not(.not-p){
+    color: blue;
+    font-weight: 700;
+}
